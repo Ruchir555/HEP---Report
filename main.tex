@@ -68,14 +68,14 @@ The HEP Capstone Project is a design project involving the High Energy Physics (
 The HEP Capstone Project involved three design opportunities that improved the experiment: scanning additional film, updating the experiment manual, and expanding and improving the software.
 
 \subsection{Film Scanning}
-For the Film Scanning design opportunity, we needed to devise a procedure to digitize more photos of the particle physics experiment. Currently, HEP student experimenters only have 40 scans available to them. There are about 200 more photos available, in the form of film reels. Once digitized, additional scans can greatly expand the variety of particle interactions students can study and the kind of physics they can investigate; the HEP experiment will overall become a richer experience for students. The primary challenges of this design opportunity include: the time consumption of scanning film, stakeholders' desire to keep the film reel intact, and the unique size of the photos.
+For the Film Scanning design opportunity, we needed to devise a procedure to digitize more photos of the particle physics experiment. Currently, HEP student experimenters only have 40 scans available to them. There are about 200 more photos available to be scanned, in the form of film reels. Once digitized, additional scans can greatly expand the variety of particle interactions students can study and the kind of physics they can investigate; the HEP experiment will overall become a richer experience for students. The primary challenges of this design opportunity include: the time consumption of scanning film, stakeholders' desire to keep the film reel intact, and the unique size of the photos.
 
 Our final design involves a pair of proprietary reel stands that allow the film reels to be scanned without cutting them. The reels are compatible with any flat bed scanner, but we could not justify the purchase of a new one, so the scanner currently present in the Advanced Lab will be used.
 
 \subsection{Experiment Manual}
-For the Experiment Manual design opportunity, we needed to take into account recommendations made by Professor David Bailey and other Professors with respect to the modernization of the manual. Several elements of the manual are outdated, such as references to old measurement procedures and unused physical parameters in the experiment. The engineering design team is tasked with accurately tying the experiment to modern physics, improving the physics background, as well as incorporating the current experimental procedure involving the `Traxis' software into the manual. This will result in a better student experience while doing the experiment, and provide students a better background of HEP. 
+For the Experiment Manual design opportunity, we needed to take into account recommendations made by Professor David Bailey and other Professors with respect to the modernization of the manual. Several elements of the previous manual were outdated, such as references to old measurement procedures and unused physical parameters in the experiment. The engineering design team was tasked with accurately tying the experiment to modern physics, improving the physics background, as well as incorporating the current experimental procedure involving the `Traxis' software into the manual. This will result in a better student experience while doing the experiment, and provide students a better background of HEP overall. 
 
-Changes to the manual included adding sections to clarify the relevant physics involved, as well as removing outdated sections of the manual. The various sections of the manual were also better modularized to improve readability. Overall, these major changes to the manual improve the brevity, accessibility, and readability of the manual.
+Changes to the manual included adding sections to clarify the relevant physics involved, as well as removing outdated sections of the manual altogether. The various sections of the manual were also better modularized to improve readability. Overall, these major changes improved the brevity, accessibility, and readability of the manual.
 
 \subsection{Software}
 For the Software design opportunity, we needed to design and test new features for the HEP experiment's proprietary software, Traxis. To use Traxis, the user first loads a photo, then uses their mouse to place points on a particle's track to ``follow" it. The user can then use Traxis to compute information on the particle's momentum and energy.
@@ -118,19 +118,19 @@ The scanning process takes 4.5 minutes to 5 minutes per shot, and the preliminar
 
 \subsubsection{Reel Stand Design}
 Figure \ref{fig: full setup} shows a completely set-up pair pair of reel stands, with a loaded reel. Figure \ref{fig: side profile} is a side profile of a reel stand. Figure \ref{fig: reelsstandsinaction} shows the reel stand being used with the scanner to scan a section of the reel. As shown, the film is pulled across from one reel stand to an initially empty collection reel, with the intermediate film allowed to lay over the scanner. The scanner is closed and scanning commences. The collection reel is then turned slightly to advance the film to the next shot and the process is repeated.
-\begin{figure}[htb]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/Reel stand images/setupreelstands.jpg}
     \caption{A completed pair of reel stands, with loaded reel.}
     \label{fig: full setup}
 \end{figure}
-\begin{figure}[htb]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/Reel stand images/reelstanddone.jpg}
     \caption{The side profile of a completed reel stands, with loaded reel.}
     \label{fig: side profile}
 \end{figure}
-\begin{figure}[htb]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/Reel stand images/reelstandaction.jpg}
     \caption{A completed pair of reel stands, with loaded reel, set-up in a scanner.}
@@ -152,7 +152,7 @@ To construct a reel stand, four screw components are first attached to one wood 
     \caption{A partially built reel stand, with four attached screw components to one wood sheet.}
     \label{fig: reelstand4screws}
 \end{figure}
-\begin{figure}[H]
+\begin{figure}[htb]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/Reel stand images/reelstadnscrewsandreel.jpg}
     \caption{A partially built reel stand, with four attached screw components to one wood sheet and a loaded reel.}
@@ -309,7 +309,7 @@ Manufacturers of scanners always publish their scanners' DPI options, which help
 
 Therefore, we consulted professional user reviews, often in the form of blogs, to obtain speed estimates. We tried to find a single blog with as many measurements as possible so the values would be consistent from scanner to scanner. Thankfully, a website, ScanDig, offered reviews of many scanners currently sold and previously sold \cite{ScanDig}. However, we again encountered problems. Many scanners that met our objectives and constraints are no longer sold. For example, the Canon CanoScan 9000F Mark II scanned a single standard $35 \ \text{mm}$ in 50 seconds at 4800 DPI \cite{canoscanspeed}. As one of our shots is about 3 times wider than a standard shot, the CanoScan should take about 2.5 minutes to scan one of our shots, about 2.5 minutes faster than what the 4990 can do. However, the CanoScan was discontinued in 2019. The Epson Perfection V800 Photo was also fast but discontinued \cite{v800scandig}. Other scanners like the Epson Perfection V600 Photo have reviews on ScanDig showing slowness compared to our 4990 for their older models, but their newer models have not yet been reviewed by ScanDig \cite{v600scandig}. Moreover, other online reviews do not give any quantifiable speed test for the such scanners.
 
-The Canon CanoScan 9000F Mark II, for example, shows that significant scanning speed improvements over the 4990 are possible but may require a second hand scanner to be purchased. Ultimately, we decided not to pursue such options and instead use the 4990, due to the potential for a purchased second hand scanner to be damaged in shipping, shipping too late for us to test it, or being faulty upon delivery due to previous use. The reel stands are compatible with any flatbed scanner, so purchasing a scanner can be done later if need be.
+The Canon CanoScan 9000F Mark II, for example, shows that significant scanning speed improvements over the 4990 are possible but may require a second hand scanner to be purchased. Ultimately, we decided not to pursue such options and instead use the 4990, due to the potential for a purchased second hand scanner to be damaged in shipping, shipping too late for us to test it, or being faulty upon delivery due to previous use. The reel stands are compatible with any flatbed scanner, so a scanner can be purchased later if need be.
 
 \subsubsection{Flatbed Scanners}
 Flatbed scanners are like a household printer. To operate them you lift open the scanner’s hood, place your film in a  template (also called a holder or insert) if necessary, close the hood, and scan. These types of scanners allow one to scan a variety of types of film including slides, sections of reel, and large and medium format. The large scanning surface also allows many shots to be scanned at once. Moreover, most flatbed scanners automatically crop and cut scans when a template is used, potentially saving much editing time.
